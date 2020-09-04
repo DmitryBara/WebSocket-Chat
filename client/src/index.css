@@ -1,0 +1,88 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+
+/* Login and Registration */
+#field {
+  min-width:200px;
+}
+
+.input-container {
+  margin-top: 50px;
+}
+
+#p-up {
+  margin-bottom: 20px;
+}
+
+input.field {
+  border-bottom: 1px solid #fff!important;
+  box-shadow: 0 1px 0 0 #fff!important;
+}
+input.field:focus {
+  border-bottom: 1px solid #ffeb3b!important;
+  box-shadow: 0 1px 0 0 #fff!important;
+}
+
+input.field + label {
+  color: #fff!important;
+}
+input.field:focus + label {
+  color: #ffeb3b!important;
+}
+
+
+
+/* Other */
+
+#navbar {
+  padding: 0 3rem;
+}
+
+/* Chat Create */
+#cont-create {
+  margin-top: 2rem;
+  max-width: 40rem;
+  border: solid 0.1rem;
+  border-color: #bdbdbd;
+  border-radius: 10rem 0.5rem
+}
+
+
+/* Chat Messages */
+
+#chat-zone {
+  max-height: 25rem;
+  overflow: scroll
+}
+
+.msg-author {
+  font-size: 1rem;
+  color: blue;
+  display: inline-block;
+}
+
+.msg-date {
+  font-size: 0.75rem;
+  color: grey;
+  display: inline-block;
+}
+
+.msg-text {
+  display: block;
+}
+
+#online-word {
+  display: inline-block
+}
+
+#one-online {
+  display: inline-block
+}
+
+/* All Chatrooms */
+
+#chat-private {
+  pointer-events: none;
+  cursor: default;
+  color: grey;
+}
