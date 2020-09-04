@@ -10,6 +10,7 @@ MongoDB for save data
 ### Run development server at yout localhost
 
 `npm install` - to install required package to node_modules (at server side and client side)
+
 `npm run dev` -  to run server and client side in the same time
 
 Don't forget put your database adress in .env file.
@@ -18,5 +19,7 @@ ___Info___
 
 Will be depoyment soon.
 Still on the work, report me about bugs.
+
+By symbol * mark not realized function (in plan).
 
 
